@@ -1,0 +1,40 @@
+.advice {
+    background: url(../img/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0 90px 0;
+    color: #fff;
+
+    &_title {
+        text-align: left;
+    }
+
+    &__desc {
+        margin-top: 85px;
+    }
+
+    &__form {
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .advice {
+        padding: 50px 0;
+
+        &_title, &__desc{
+            text-align: center;
+        }
+
+        &__desc {
+            margin-top: 30px;
+        }
+
+        &__form {
+            align-items: center;
+        }
+        
+    }
+}

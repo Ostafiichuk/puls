@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: "Museo-500";
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@font-face { font-family: "Museo-500"; 
+    src: url("../fonts/museo/MuseoSansCyrl-500.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+@font-face { font-family: "Museo-700"; 
+    src: url("../fonts/museo/MuseoSansCyrl-700.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+.button {
+    width: 200px;
+    height: 35px;
+    background-color: $mainColor;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Museo-700';
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+        padding: 20px 15px;
+        width: 300px;
+        border-radius: 4px;
+        margin-top: 15px;
+        border: none;
+
+        &::placeholder {
+            color: #000;
+        }
+
+        &[type="button"]{
+            background-color: red;
+            text-transform: uppercase;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+.block {
+    display: block !important;
+}
+
+.none {
+    display: none;
+}
+
+.left {
+    left: -100%;
+}
