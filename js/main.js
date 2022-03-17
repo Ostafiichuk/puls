@@ -32,6 +32,7 @@ $(document).ready(function(){
                     items[y].classList.add('block');
                 }else {
                     items[y].classList.add('none');
+                    items[y].classList.remove('block');
                 }   
                 
             }
