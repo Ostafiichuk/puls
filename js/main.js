@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('.carousel__inner').slick({
-        prevArrow: '<button type="button" class="slick-prev"><img src="../img/prev.png" alt="prev"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../img/next.png" alt="next"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="img/prev.png" alt="prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="img/next.png" alt="next"></button>',
         responsive: [
             {
                 breakpoint: 900,
@@ -76,5 +76,7 @@ $(document).ready(function(){
             overlay.classList.remove('block');
         })
     }
+
+    // 
   });
 
